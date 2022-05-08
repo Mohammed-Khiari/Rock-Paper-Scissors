@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap" rel="stylesheet"/>
+    <title>Rock-Paiper-Scissor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1 id="title"> Man vs Computer </h1>
+        <p class="desc animate" id="desc1">
+            Machines are threatening to take over the world...
+        </p>
+        <p class="desc disappear" id="desc2">
+            Unless you can defeat them in a game of rock paper scissors first to
+        5...
+        </p>
+        <p class="desc disappear" id="desc3">
+            Do you have what it takes to save mankind?
+        </p>
+        <p id="cta"> Choose your weapon! </p>
+
+        <!--Game section-->
+        <div id="game-container">
+            <div id="btn-container">
+                <div id="rock" class="button">
+                    <img src="cave-painting.png" alt="Rock">
+                </div>
+                <div id="paper" class="button">
+                    <img src="document.png" alt="paper">
+                </div>
+                <div id="scissors" class="button">
+                    <img src="scissors-opened-tool-shape.png" alt="scissors">
+                </div>
+            </div>  
+        
+           <!-- score section-->
+            <div id="score-label">
+                <p class="label"> you</p>
+               <p class="label">computer</p>
+            </div>
+           <div id="score-container">
+                <div id="player-score"  class="score">0</div>
+                <div id="computer-score" class="score">0</div>
+            </div>    
+            <div id="results-container"></div>
+            
+        </div>
+    </main>
+    <!-- winner alert section-->
+    <div id="end-alert" class="disappear">
+        <div id="end-desc"></div>
+        <a id="retry-btn"></a>
+    </div>
+    <div id = "my-logo" class="logo button">
+        <a href="https://mohammed-khiari.github.io/My-Portfolio-/">
+            <img src="logo3.png" alt="logo to my portfolio page">
+        </a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+  
+
